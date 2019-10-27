@@ -39,7 +39,10 @@ html, body {
 
 /*corrects IE min-height bug*/
 html { display: flex;}
-body { width: 100%;}
+body {
+	width: 100%;
+	font-family: "Droid Sans", sans-serif;
+}
 
 .sfooter {
 	display: flex;
@@ -49,6 +52,11 @@ body { width: 100%;}
 
 .sfooter-content {
 	flex: 1 0 auto;
+}
+header {
+	background-color: #333333;
+	color:#06ff0b;
+	font-family: Trebuchet MS, sans-serif;
 }
 
 /*****************************************************
@@ -61,6 +69,43 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+em {
+	font-weight:300;
+	font-style: normal;
+	padding-top: 2.1em;
+	padding-left: 2em;
+}
+.container2{
+	display: flex;
+	margin: 0 auto;
+	padding: 0 2rem;
+}
 
-
-
+.instructions-wrapper {
+	display: flex;
+	flex-direction: row;
+	border: solid black .1em;
+	justify-content: space-between;
+}
+.instructions-wrapper img {
+	padding: 1em;
+	height: 8em;
+}
+.about-me {
+	background-color: blue;
+	color: white;
+	height: 25em;
+}
+.about-me .container {
+	columns: 2;
+	padding-top: 2.5em;
+	padding-bottom: 2.5em;
+	align-content: space-around;
+}
+.about-me .container img {
+	height: 20em;
+}
+.about-me span {
+	color: yellow;
+	font-weight: bold;
+}
