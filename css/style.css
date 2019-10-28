@@ -79,13 +79,18 @@ header {
 * * Attribute Selectors
 ******************************************************/
 header div {
-	columns: 2;
+	text-align:center;
+	justify-content: center;
+
 }
 header div h1 {
+	display: inline-block;
 	text-align: right;
 	font-size: 3em;
 }
 header div em {
+	margin-left: 2em;
+	display: inline-block;
 	margin-top: 20px;
 	position: relative;
 	margin-block-start: .67em;
