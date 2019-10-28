@@ -66,6 +66,7 @@ body {
 header {
 	background-color: #333333;
 	color: #06ff0b;
+	height: 7em;
 }
 
 /*****************************************************
@@ -97,6 +98,7 @@ header div em {
 	margin-block-end: .67em;
 }
 instructions-content {
+	height:7em;
 	justify-items: center;
 	align-items: center;
 }
